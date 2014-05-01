@@ -19,6 +19,10 @@
 		A94988EF1911F30900856CAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94988D71911F30900856CAF /* UIKit.framework */; };
 		A94988F71911F30900856CAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94988F51911F30900856CAF /* InfoPlist.strings */; };
 		A94988F91911F30900856CAF /* CoExistOfScrollViewAndBackGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94988F81911F30900856CAF /* CoExistOfScrollViewAndBackGestureTests.m */; };
+		A94989041911F32100856CAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94989031911F32100856CAF /* ViewController.m */; };
+		A94989071911F45500856CAF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94989061911F45500856CAF /* MainViewController.m */; };
+		A949890D1912064500856CAF /* UIScrollView+AllowPanGestureEventPass.m in Sources */ = {isa = PBXBuildFile; fileRef = A949890C1912064500856CAF /* UIScrollView+AllowPanGestureEventPass.m */; };
+		A949891019120D5800856CAF /* UINavigationController+iOS7Support.m in Sources */ = {isa = PBXBuildFile; fileRef = A949890F19120D5800856CAF /* UINavigationController+iOS7Support.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		A94988F41911F30900856CAF /* CoExistOfScrollViewAndBackGestureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoExistOfScrollViewAndBackGestureTests-Info.plist"; sourceTree = "<group>"; };
 		A94988F61911F30900856CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A94988F81911F30900856CAF /* CoExistOfScrollViewAndBackGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoExistOfScrollViewAndBackGestureTests.m; sourceTree = "<group>"; };
+		A94989021911F32100856CAF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A94989031911F32100856CAF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A94989051911F45500856CAF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A94989061911F45500856CAF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A949890B1912064500856CAF /* UIScrollView+AllowPanGestureEventPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AllowPanGestureEventPass.h"; sourceTree = "<group>"; };
+		A949890C1912064500856CAF /* UIScrollView+AllowPanGestureEventPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AllowPanGestureEventPass.m"; sourceTree = "<group>"; };
+		A949890E19120D5800856CAF /* UINavigationController+iOS7Support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+iOS7Support.h"; sourceTree = "<group>"; };
+		A949890F19120D5800856CAF /* UINavigationController+iOS7Support.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+iOS7Support.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,14 @@
 				A94988E31911F30900856CAF /* AppDelegate.m */,
 				A94988E51911F30900856CAF /* Images.xcassets */,
 				A94988DA1911F30900856CAF /* Supporting Files */,
+				A94989021911F32100856CAF /* ViewController.h */,
+				A94989031911F32100856CAF /* ViewController.m */,
+				A94989051911F45500856CAF /* MainViewController.h */,
+				A94989061911F45500856CAF /* MainViewController.m */,
+				A949890B1912064500856CAF /* UIScrollView+AllowPanGestureEventPass.h */,
+				A949890C1912064500856CAF /* UIScrollView+AllowPanGestureEventPass.m */,
+				A949890E19120D5800856CAF /* UINavigationController+iOS7Support.h */,
+				A949890F19120D5800856CAF /* UINavigationController+iOS7Support.m */,
 			);
 			path = CoExistOfScrollViewAndBackGesture;
 			sourceTree = "<group>";
@@ -239,8 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A949890D1912064500856CAF /* UIScrollView+AllowPanGestureEventPass.m in Sources */,
+				A94989041911F32100856CAF /* ViewController.m in Sources */,
 				A94988E41911F30900856CAF /* AppDelegate.m in Sources */,
 				A94988E01911F30900856CAF /* main.m in Sources */,
+				A94989071911F45500856CAF /* MainViewController.m in Sources */,
+				A949891019120D5800856CAF /* UINavigationController+iOS7Support.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
